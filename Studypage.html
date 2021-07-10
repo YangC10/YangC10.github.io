@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design content for students</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <a class="navbar-brand " style="color: darkslateblue;" href="Work.html"><svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+            </svg>
+            Back</a>
+    </nav>
+
+    <div class="container">
+
+
+        <h1>Design content for students</h1>
+        <div>
+            <img src="images/Studypage/Hero.png" alt="studypage design" class="img-fluid" width="800">
+        </div>
+        <h4>Intro</h4>
+        <p>In 2019, the UX Design team (UXD) at Studyportals did a series evaluation for the core page of
+            Masterportals.com -
+            studypage. The evaluation results showed that the current page design has a few problems: text heavy, patchy
+            interface, lacing visual hierachy...these problems together created a less optimal user experience and is
+            potentially the reason
+            for a low conversion rate. To address these issues, UXD initaited a re-design for the current
+            studypage. This project involved the entire design team, a few product managers and srum
+            teams.
+
+        <h4>Product keywords</h4>
+        <p> Website</p>
+
+        <h4>Methodology</h4>
+        <div class="icongroup">
+            <img src="Images/Icons/research.svg" alt="research">
+            <img src="images/Icons/prototyping.svg" alt="prototyping">
+            <img src="images/Icons/ui.svg" alt="ui design">
+            <img src="images/Icons/evaluation.svg" alt="evaluation">
+        </div>
+
+        <h4>Team</h4>
+        <p> 5 designers, 3 product managers, development team</p>
+
+        <h4>Context & problem</h4>
+        <p> As part of the redesign project, I was responsible for redesigning a specific section on
+            the study page - the "Admission requirements" tab. This tab contains information about requirements a
+            student needs to meet to be accepted to this programme. This is how this section currently looks on desktop
+            and mobile device: </p>
+
+        <div>
+            <img src="images/Studypage/old design.webp" alt="old design" class="img-fluid" width="1200">
+        </div>
+        <p>I did an evaluation of the page content which helped identify the following issues:</p>
+        <ul>
+            <li>Using tabs for different types of tests makes information less straight-forward;</li>
+            <li>The graph used for displaying scores looks confusing (what is the meaning of the red colored area
+                exactly?) and even breaking in certain scenarios</li>
+            <li>There's no visual hierarchy - so much content! Where should I look?</li>
+            <li>CTA gets buried in all the content thus doesn't stand out</li>
+            <li>Visually not very appealing</li>
+        </ul>
+
+        <p>When the problems get framed, the design solutions seem to appear by themselves, starting from answer these
+            questions:</p>
+
+        <ul>
+            <li>How can we make information clear and straight-forward for our users?</li>
+            <li>How to introduce a clear hierarchy to contents and actions, thus better inform and guide users?</li>
+            <li>How to provide good user experience for both desktop and mobile?</li>
+            <li>How can we make it more visually appealing?</li>
+        </ul>
+
+
+
+
+
+
+        <h4>Process</h4>
+        <div class="process">
+            <h4>Understand the content</h4>
+
+            <p>With these questions in mind, I started a research on the current content. These contents were inserted
+                by data team or universities via an internal content management system, it contains:</p>
+            <ul>
+                <li>English level requirement (for international students mainly, usually proven with scores from a
+                    well-know test such as IELTS or TOEFL)</li>
+                <li>Academic requirement (can be proven with a GPA score, however for certain disciplines such as
+                    business-related programmes, GMAT or GRE might also be required)
+                </li>
+                <li>Other requirement (work experience, technology requirements, and other general requirements)</li>
+            </ul>
+            <p>Cool! That sounds not too difficult, does it? However, further investigation starts revealing the
+                complexity:</p>
+            <ul>
+                <li>We have 4 different types of English tests, some we have partnership with, some we don't.</li>
+                <li>We have 3 different types of academic tests, some we have partnership with, some we don't.
+                </li>
+                <li>English tests are alternatives to each other, the other tests aren't.
+                </li>
+                <li>GPA has 2 scores specified (required vs recommended), GRE has 3 scores specified per subject, either
+                    required or recommended, GMAT doesn't have a recommended score, however an "average" score.</li>
+                <li>Some tests have additional information specified, some don't.</li>
+                <li>Some tests specified if they are required, some don't.</li>
+                <li>...</li>
+            </ul>
+
+
+            <h4>Define the content struture</h4>
+            <p>
+                While writing down all my findings, and looking at the data & specific partnership requirements I
+                received from product team, I started to feel this story might be more complex than it looks....however
+                I believe with the right approach, you will eventually find a solution.
+            </p>
+            <p>After looking into the data, I remapped the structure of the content based on its priority. Also, I
+                decided to get rid of the tabs and display all the test information directly in a more structured way.
+                The confusing graphs were replaced with more structured score modules.</p>
+            <p>The score modules are the most important elements in the new design. They should be flexible enough to
+                deal with all different score and partnership scenarios. Also, responsive behaviour should be taken into
+                consideration for a consistent cross-device experience.
+
+                I defined the following structure for the score modules:</p>
+            <img src="images/Studypage/Content structure.webp" alt="old design" class="img-fluid" width="1200">
+            <p>I tested the score modules thoroughly with different scenarios, making sure they would work in any of the
+                situations.</p>
+
+
+            <h4>Visual & UI design</h4>
+            <p>With the redesign direction in mind, I started exploring visual directions for this section. It should
+                look clean, structured, visually appealing, while staying consistent with other newly redesigned
+                sections. After some discussions with the visual designer on the team, I went for the following
+                direction:</p>
+
+            <img src="images/Studypage/UI design.webp" alt="old design" class="img-fluid" width="800">
+
+            <h4>Design evaluation</h4>
+            <p>After launching, we leanred that the new design appeared to be more clear and effective than the old
+                design. Users were
+                able to find the information they need much more quickly, and the interactions with the CTAs improved as
+                a result.</p>
+
+            <img src="images/Studypage/Comparison 1.png" alt="comparison - desktop" class="img-fluid" width="800">
+            <img src="images/Studypage/Comparison 2.png" alt="comparison - mobile" class="img-fluid" width="800">
+
+
+
+
+        </div>
+
+        <footer>
+            <p>
+                Yang Chen 2021
+            </p>
+        </footer>
+
+
+
+
+</body>
+
+</html>

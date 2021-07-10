@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with design systems</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <a class="navbar-brand " style="color: darkslateblue;" href="Work.html"><svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+            </svg>
+            Back</a>
+    </nav>
+
+    <div class="container">
+
+        <h1>Working with Design Systems</h1>
+        <div>
+            <img src="images/DS/Hero.png" alt="Design system" class="img-fluid" width="800">
+        </div>
+
+        <h4>Intro</h4>
+        <p>I have been a fan of Design Systems - while working on differnt type of projects or products, I have always
+            ineivitably found myself working with some form of Design System - small or large, simple or complex. The
+            idea behind a Design System has impacted my
+            design process so much that I can't imagine myself working without it anymore. For people who are less
+            familiar with a Design System, it's a "pattern library" and seems only designers are benefiting from it;
+            However
+            its
+            benefits are much more than that. In my eyes, there are at least 3 great things about Design Systems:
+        </p>
+
+        <ul>
+            <li>Maintain brand consistency accross products;</li>
+            <li>Ensure consistency of the user experience;</li>
+            <li>Improve design & development efficiency via reusability</li>
+        </ul>
+        <p>I have always become part of the "Design System Team" in a design team, working on different
+            aspects of a
+            design system. Through colloboration with other designers and developers, we constantly improve the design
+            system
+            to make it work better for the designers and developers, and eventually, for the products and users it's
+            serving. </p>
+
+
+        <h2>Case Studies</h2>
+
+        <h3>1. Set up Studyportals' Design System</h3>
+        <div class="labelgroup">
+            <span class="label">Component audit & documentation</span>
+            <span class="label">Styleguide design</span>
+            <span class="label">UI library</span>
+        </div>
+
+        <h4>Team</h4>
+        <p> 2 designers</p>
+
+        <h4>Context & problem</h4>
+        <p> As the design team is growing in size, Studyportals would like to set up a styleguide that helps to maintain
+            the design consistency accross different sections of its products. I volunteerd with another designer on the
+            team to work on this project. The established website can be viewed at <a
+                href="https://styleguide.studyportals.com/">
+                <b>styleguide.studyportals.com</b></a>.
+        </p>
+
+        <h4>Process</h4>
+        <div class="process">
+            <h4>Components audit & definition</h4>
+
+            <p>With the help from the design team, We conducted an audit to understand the current usage of the
+                "components" - which have been
+                used (somewhat) consistently accross the platform? Which ones are messy and need to be re-defined?</p>
+
+            <p>Based on the results of the audit, we started to create documentation for different components, defining
+                it's style and behaviour. We went through a few design discussions with all the designers on the team
+                to look at these guidelines and iterate based on their feedback.</p>
+            <p>Below is an exmpale for the button component:</p>
+            <img src="images/DS/Audit.png" alt="Button audit" class="img-fluid" width="1200">
+
+
+            <h4>Styleguide website design</h4>
+            <p>We decided to create a single source of truth for the documentation of the components - one that we can
+                easily
+                update & maintain, and easy to access for everyone (e.g. designers, product managers, developers,
+                marketing etc.).
+                A website seems to be a good option for such purpose.
+                After going through many other syleguide websites and discussing about our own needs, we started to
+                create a series of wireframes to capture the ideal style direction and content structure.</p>
+            <img src="images/DS/Benchmarking.JPG" alt="Benchmarking" class="img-fluid" width="1200">
+            <img src="images/DS/Wireframe.png" alt="Website wireframe" class="img-fluid" width="1200">
+
+            <h4>Sketch library</h4>
+            <p>We dreamed of creating a "holy grail" design system, where design library, styleguide and code library
+                all match each other. We started with building the link between the styleguide and design library first
+                by creating reusable symbols in Sketch. This way designers can have a easy toolkit to use during the
+                design process. This is a collaborative work from several designers on the team.
+            </p>
+
+            <p>Below is a subset of the design system, a smaller set of symbols created for Studyportals' client-facing
+                products.</p>
+            <img src="images/DS/Symbols.png" alt="Reusable symbols" class="img-fluid" width="1200">
+
+            <h4>Maintain & update</h4>
+            <p>We understand design system is <b>a living system</b>, the only way to make sure that it best serves the
+                products is to make sure it's constantly being maintained and updated. We developed a process to
+                regularly communicate to the product teams around the progress of component development, as well as
+                hearing from the teams about the needs for new components.</p>
+            <p>
+                We also developed a few tools and templates for designers to request updates and create components
+                themselves
+                (e.g. icons). We designed components and get feedback from designers and developers. We also send out
+                updates to the whole company on the recent additions and changes to the styleguide.</p>
+
+            <p>The process was working very well - we have created an engaging process where design system is
+                becoming a crucial part of the product development process.</p>
+        </div>
+
+
+
+        <h3>2. Contribute to IDEXX'SPOT Design System</h3>
+        <div class="labelgroup">
+            <span class="label">Component design</span>
+            <span class="label">UI library</span>
+            <span class="label">Library migration</span>
+        </div>
+
+        <h4>Team</h4>
+        <p> 4 designers, 1 developer</p>
+
+        <h4>Context</h4>
+        <p> SPOT is IDEXX's Design system, it's a medium-large sized system which contained more than 20 different
+            components. All the components presented in the system have their design symbols created in the Sketch
+            library and their code equivalence. A team of 5 (4 designers and 1 developer) are actively working on
+            maintaining & updateing the system, making sure new components are being designed and developed that suit
+            the design team's needs. </p>
+        <p>
+
+            As a member on the team, I am responsible for components creation, documentation
+            and library
+            update. A
+            recent example that I worked on is the badge component.
+        </p>
+
+        <h4>Process</h4>
+        <div class="process">
+            <h4>Design review & feedback session</h4>
+            <p>Badge component can be used to provide additional information on another component, the red notification
+                bubble that's common to see in modern products is an example of a badge. The design team has been
+                consistenly reporting the
+                need for such a component. One designer on the team made the initial design some time ago, and I picked
+                up the work from there and continued with reviewing and refining the current proposal.</p>
+
+            <p>I hosted a few workshops with the whole design team to go through current usage and needs for the badge
+                component in various products accross the company. From there we examined from differnt aspects whether
+                the current proposal
+                could work in
+                different contexts and made adjustments and additions. </p>
+            <p>
+                During these sessions, there has been some confusion from the team around the difference between badge
+                and another
+                component: Pills. We also
+                did a comparison to further make the distinction
+                between the
+                two and clarity the use cases for each.</p>
+
+            <img src="images/DS/discussion session.png" alt="Feedback session" class="img-fluid" width="1200">
+
+            <h4>Documentation & component creation</h4>
+            <p>Based on the input from these discussions, I finalized the design proposal and made a detailed
+                documentation of the badge component, describing it's styles, behaviour, variants and usage guidelines.
+                I worked together with the
+                developer on the team to create badge component both in the Sketch library and in the code base. </p>
+            <p>
+                We
+                tested the different variants and use cases thoroughly ourselves, before publishing it.</p>
+
+            <img src="images/DS/Badge-all.png" alt="Badge symbols" class="img-fluid" width="1200">
+
+
+            <h4>Usage & monitoring</h4>
+            <p>We published the badge component on the SPOT website, together with the design symbols and code
+                equivalence. We encouraged the team to start using the new
+                badge
+                component. Through design discussions, we observe the usage of it and identify how it can be
+                improved to make it easier for people to use via e.g. naming convention, color variants improvements.
+            </p>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <footer>
+        <p>
+            Yang Chen 2021
+        </p>
+    </footer>
+
+</body>
+
+</html>

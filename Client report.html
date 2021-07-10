@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University report interface redesign</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <a class="navbar-brand " style="color: darkslateblue;" href="Work.html"><svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+            </svg>
+            Back</a>
+    </nav>
+
+    <div class="container">
+
+        <h1>University reporting interface redesign</h1>
+        <div>
+            <img src="images/Reporting/Hero.png" alt="Business Innovation" class="img-fluid" width="800">
+        </div>
+        <h4>Intro</h4>
+        <p>The client reporting system at Studyportals helps the organisation and its clients (universities) monitor the
+            performance of clients' campaigns. However, as the amount of client campaigns is increasing, the
+            legacy system is
+            having difficulty handling the amount of data and started to have performance issues. In year 2019, the
+            organisation started
+            a series of efforts aiming to upgrade the current legecy system and provide better data insights for our
+            clients. One of such effort is to rebuild the current client reporting system.
+
+        <h4>Product keywords</h4>
+        <p> Web application (SAAS)</p>
+
+        <h4>Methodology</h4>
+        <div class="icongroup">
+            <img src="Images/Icons/research.svg" alt="research">
+            <img src="images/Icons/prototyping.svg" alt="prototyping">
+            <img src="images/Icons/ui.svg" alt="ui design">
+            <img src="images/Icons/evaluation.svg" alt="evaluation">
+        </div>
+
+        <h4>Team</h4>
+        <p> 1 product manager, 1 designer (me), development team</p>
+
+        <h4>Context & problem</h4>
+        <p>As part of the rebuild effort, we thought it's a good opportunity to redesign the outdated interface and
+            improve the user experience. As the UX designer on the team, I was responsible for leading the interface
+            redesign efforts.</p>
+
+
+
+
+        <h4>Process</h4>
+        <div class="process">
+            <h4>Examine the current experience</h4>
+
+            <p>The screenshot below shows how the old reporting interface looks like - you will probably recognise some
+                of the characteristics in
+                products built from 10 years ago: colourful & prominent infographics, default browser UIs,
+                considerate-yet-lengthy explanations of the terms, complex tables....</p>
+            <img src="images/Reporting/Old reports.jpg" alt="design thinking" class="img-fluid" width="800">
+            <p>To decide on a strategy of the redesign, I decided to run some user research to get a bit more insight on
+                the current reports. I sent out a survey to around 250 clients asking about their opinions on different
+                aspects of the current reports, including content, usability and aesthetics. Based on the results of the
+                survey, I identified the major places for improvements. Together with the product owner and the team, we
+                prioritised them and planned them into user stories.
+
+                Screenshot of the survey results:</p>
+
+            <img src="images/Reporting/survey results.png" alt="design thinking" class="img-fluid" width="800">
+
+            <h4>Define redesign strategy</h4>
+            <p>Based on the evaluation and resutls from the survey, I defined the goals of the redesign:</p>
+            <ul>
+                <li> Keep what works but improve the usability & readability of the current content;</li>
+                <li> Improving the presentation of the info graphics, makes it easier to understand;</li>
+                <li> Improving the aesthetics of the reports to make it more appealing and more inline with the brand
+                </li>
+            </ul>
+
+            <p>These strategies have been translated into the following UI improvements:</p>
+            <ul>
+                <li> Leverage proper navigation element to support user with easily accessing different sections on the
+                    page;</li>
+                <li> Display contents with the correct hireacy;</li>
+                <li>Simplify the information presented and provide more controls for users to fine-tune the results;
+                </li>
+                <li> Re-visit the info graphics used today and use appropriate info graphics based on the type of
+                    contents;</li>
+
+                <li> Use styles and components from Studyportals' design system;
+                </li>
+            </ul>
+
+            <h4>UI design</h4>
+            <p>Result of the redesign:</p>
+            <img src="images/Reporting/New reports.png" alt="design thinking" class="img-fluid" width="1200">
+
+            <h4>Customer adoption and feedback</h4>
+            <p>We included a in-app survey when we launched the beta version of redesigned reporting system to gather
+                feedback from our clients. The reactions from the initial batch of the customers were positive:
+                <b>75%
+                    gave it a 4 or 5 out
+                    of 5!</b> This gave us more confidence to
+                gradutally launched the beta version to more and more clients, while kept iterating on the product based
+                on the
+                feedback.
+            </p>
+
+            <p>To ensure a smooth transition,
+                We also included a link to go back to the old reporting system, in case users find anything missing
+                (some features in the old system were still not implemented in the new one) or they are simply more fond
+                of the older
+                version. However,
+                we observed that the amount of customers switching to using the new system is increasing - and that's
+                certainly a positive
+                sign of the transition. </p>
+
+
+
+
+        </div>
+        <footer>
+            <p>
+                Yang Chen 2021
+            </p>
+        </footer>
+
+
+
+
+
+</body>
+
+</html>

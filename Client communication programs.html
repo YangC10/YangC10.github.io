@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client communication programs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <a class="navbar-brand " style="color: darkslateblue;" href="Work.html"><svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+            </svg>
+            Back</a>
+    </nav>
+
+    <div class="container">
+
+        <h1>Client communication programs</h1>
+        <div>
+            <img src="images/Client commus/Hero.png" alt="Client communication hero image" class="img-fluid"
+                width="1200">
+        </div>
+        <h4>Intro</h4>
+        <p>In a research I helped conducted in Q3 2020, customers of Animana have reported that <b>client communication
+                is
+                seen as the top one important non-clinical task</b>. While client communication is broad and serves
+            multiple
+            purposes in different parts of the practice workflow, this is an important insight for us - it shows that
+            while our customers want to engage as much as possible with their clients, they also care a lot about the
+            experience of their clients in that communication. This insight has largely changed my perspective - <b>to
+                help
+                partner practices achieve their success, we should definitely think about the end users experience</b>.
+        </p>
+
+
+        <h4>Methodology</h4>
+        <div class="icongroup">
+            <img src="Images/Icons/research.svg" alt="research">
+            <img src="images/Icons/prototyping.svg" alt="">
+            <img src="images/Icons/user testing.svg" alt="">
+            <img src="images/Icons/ui.svg" alt="">
+        </div>
+
+        <h4>Product keywords</h4>
+        <p> Web application (SAAS)</p>
+
+        <h4>Team</h4>
+        <p> 1 product manager, 1 designer (me), development team</p>
+
+        <h4>Context & problem</h4>
+        <p>One challenge that many veterinary practices are facing, is that their clients are not meeting the
+            compliance, e.g. screening tests, follow up checks, treatment plan etc. This leads to revenue loss for the
+            clinics and less good treatment results for the patients. </p>
+
+        <p>To help improve client compliance, IDEXX would
+            like to introduce communication programmes for practices to
+            reach out to their clients, aiming to educate clients about benefits of routine and preventive care.
+            Examples of such programmes are dental care, obesity issues, general wellness check etc. As the UX designer
+            on the team, I am responsible for designing a new section in the existing communication tool that enables
+            this new feature.
+        </p>
+
+
+
+        <h4>Process</h4>
+        <div class="process">
+            <h4>Evaluation of current IA</h4>
+
+            <p>Before I join the team, some explorations around information architecture have been done by the previous
+                designer. The first thing
+                I did was to browse through all these explorations. The current proposal suggests an "All to individual"
+                approach and propses a rather flat strucutre for the programs contents. Although this approach
+                simplifies the
+                hierachy, it has a shortcoming - <b>due to the fact that all the program contents are laid out on a
+                    single
+                    page, user will need to rely on heavy scrolling to navigate to each section.</b> During the user
+                research
+                sessions later, we learned that differnt sections have different priorities for users, depends on where
+                users are in their journey. E.g. before launching a program, it's important to check the "preview"
+                section.
+                After launching a
+                program, however, "Performance" will become the more frequencly visisted section.
+            </p>
+
+            <p>
+                Based on this finding, I adjusted the current IA to support easy naviagtion between different sections.
+            </p>
+
+            <img src="images/Client commus/Old vs new IA.png" alt="Current vs new informaiont architecture"
+                class="img-fluid" width="1200">
+
+            <p>
+                Further, I also introduced a state flow to control & visualise the status of a program e.g. draft,
+                launched, stopped, completed etc. with the intention to provide users with the visibility of the
+                program status so it's clear to them whether a program is running, is stopped, is completed etc.
+            </p>
+
+            <img src="images/Client commus/State control.png" alt="State control" class="img-fluid" width="1200">
+
+            <h4>Prototyping & User testing</h4>
+
+            <p>
+                The new IA and state control aims to provide more clarity to users and support them with
+                completing the most important tasks around programs. However, this is our
+                good wish - <b>How do we know if it indeed makes things more clear and efficient for the users? How do
+                    we
+                    know they will not get overwhelmed with the addtional information?</b>
+                After talking to the product maganer, we decided to run a few user testing sessions to answer these
+                questions. </p>
+
+            <p>
+                I created a clickable prototype that simulates the whole life cycle of exploring-setting
+                up-launching-reviewing a program, prepared an interview script and results template. We reached out to a
+                few customers - they are either the owner or office manager of their veterinary practices who are often
+                actively enegaged in client communication actitivites. We had a short interview with each of them first
+                to understand how client communication is done at their practices. We tested the prototype by asking
+                them to try using our solution and complete a few core tasks.
+            </p>
+
+            <p>Results of the testing sessions suggested, <b>the new information structure is very clear to users and
+                    helped
+                    them with navigating through different sections.</b> However, we also need to consider the
+                experience
+                of <b>"1st
+                    time encounter"</b> and provide instructions on the steps for users to complete their tasks. </p>
+
+            <div class="imggroup">
+                <img src="Images/Client commus/script.png" alt="interview script" class="img-fluid" width="600">
+                <img src="Images/Client commus/Results.png" alt="results documentation" class="img-fluid" width="600">
+
+            </div>
+
+            <h4>Detail Journey & flow mapping</h4>
+            <p> Based on the insights from the testing sessions, I mapped out the high-level user journey and
+                constructed the detailed workflows for different type of programs for different use cases. I discussed
+                the flow charts with the team, and made adjustments based on the feedback from product manager and
+                engineers.
+            </p>
+
+            <img src="images/Client commus/User journey.png" alt="user journey" class="img-fluid" width="1200">
+            <img src="images/Client commus/Flowchart.png" alt="user flow" class="img-fluid" width="1200">
+
+            <h4>Responsive UI design</h4>
+            <p> Supporting mobile experience is one of the guiding product principles. To make the programs application
+                fully responsive, I used a <b>"mobile first"</b> approach to determine the overall UI and responsive
+                behaviour. Breakpoints were introduced at component level to support the needs of various contents.
+            </p>
+
+            <p>During the implementation, I work together with the developers to further refine the UI and behaviours,
+                and review it on different screensizes. </p>
+
+            <img src="images/Client commus/screens.png" alt="mobile screens" class="img-fluid" width="1200">
+            <img src="images/Client commus/Responsive design.png" alt="responsive design" class="img-fluid"
+                width="1200">
+
+
+        </div>
+        <footer>
+            <p>
+                Yang Chen 2021
+            </p>
+        </footer>
+
+
+
+
+</body>
+
+</html>
