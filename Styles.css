@@ -1,0 +1,326 @@
+
+
+/* texts */
+
+
+
+.hero{
+    font-weight: 400;
+    text-align: center;
+    line-height: 125px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 8px;
+}
+
+h1{
+    font-size: 88px;
+    line-height: 106px;
+    font-weight: 600;
+    text-align: center; 
+    margin: 96px auto;
+   
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center; 
+    margin: 0px auto;
+
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: start; 
+    margin: 8px auto;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: darkslateblue;
+}
+
+p{
+    font-size: 16px;
+    line-height: 32px;
+    }
+
+a{
+    color: darkslateblue;
+    text-decoration: none;
+
+}
+
+
+/* header */
+
+nav{
+   /*  height:88px; */
+   margin-top:24px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+.navbar-nav{
+    margin-left: auto;
+
+} 
+.navbar-nav a{
+    color: darkslateblue;
+}
+
+
+.navbar-brand{
+    font-size: 18px;
+    color:darkslateblue;
+    margin-left:24px;
+}
+
+.nav-item nav-link{
+    font-size: 18px;
+}
+
+
+
+nav{
+    display:inline-block;
+    padding: 24px;
+
+}
+
+.navitem{
+    font-size: 16px;
+    display: inline-block;
+    padding-left: 16px;
+}
+
+
+
+/* .buttongroup{
+    text-align: center;
+    margin-top: 64px;
+} */
+
+/* Home */
+
+
+#heroimage{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.herocontent{
+    width:60%;
+    margin:96px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+
+/* work blocks */
+.work h3{
+    font-size: 20px;
+    font-weight:600;
+    color: darkslateblue;
+    text-align: center;
+    margin-top:24px;
+ 
+}
+
+/* .work:nth-of-type(2n){
+    background-color: darkslateblue;
+}
+ */
+ 
+ 
+.work{
+    width: 480px;
+    Height: 296px;
+    border:1px solid #e8e8e8;
+    border-radius: 8px;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+    display: inline-block;
+    transition: box-shadow 0.25s ease-out, transform 0.25s ease-out;
+}
+
+.work:hover{
+box-shadow:0 0 20px rgb(63 92 110 / 15%);
+transform: translateY(-4px);
+cursor: pointer;
+}
+
+.workcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:64px;
+}
+.workcontent a{
+    display: inline-block;
+}
+
+
+#image1{
+    width: 100%;
+    height: 65%;
+    background: center/65% no-repeat url(Images/practice\ efficiency.svg);
+}
+
+#image2{
+    width: 100%;
+    height: 65%;
+    background: center/45% no-repeat url(Images/Client\ comms.svg);
+}
+
+#image3{
+    width: 100%;
+    height: 65%;
+    background: center/55% no-repeat url(Images/PetOwner.svg);
+}
+
+#image4{
+    width: 100%;
+    height: 65%;
+    background: center/55% no-repeat url(Images/Business.svg);
+}
+
+#image5{
+    width: 100%;
+    height: 65%;
+    background: center/55% no-repeat url(Images/student.svg);
+}
+
+#image6{
+    width: 100%;
+    height: 65%;
+    background: center/55% no-repeat url(Images/report.svg);
+}
+
+#image7{
+    width: 100%;
+    height: 65%;
+    background: center/55% no-repeat url(Images/TVP.svg);
+} 
+
+
+#image8{
+    width: 100%;
+    height: 65%;
+    background: center/50% no-repeat url(Images/designsystem.svg);
+} 
+
+#image9{
+    width: 100%;
+    height: 65%;
+    background: center/65% no-repeat url(Images/shoal.svg);
+} 
+
+/* Page content */
+.backlink{
+    margin-top:32px;
+}
+
+.container h2{
+    margin-top:200px;
+    margin-bottom:64px;
+}
+
+.container h3{
+    margin-top:160px;
+    margin-bottom:8px;
+}
+
+.container h4{
+    text-align: start; 
+    margin-top: 64px;  
+}
+
+.container img{
+    display:block;
+    margin: 48px auto; 
+}
+
+.icongroup img{
+    width: 128px;
+    display: inline-block;
+    margin-left:16px;
+    margin-top: 16px;
+}
+
+.process{
+    padding-left:32px;
+    border-left: 1px solid rgb(218, 218, 218);
+}
+
+.process h4{
+    margin-top:48px;
+}
+
+.container li{
+    margin:12px 0;
+}
+
+.container iframe{
+    margin: 48px auto;
+}
+
+.process img{
+    display:block;
+    margin: 48px auto;
+    box-shadow: 0px 0px 5px 0px rgba(238, 238, 238, 1);
+}
+
+.imggroup{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.label{
+    color: slategray;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 4px;
+    padding:4px 8px;
+    margin-left: 4px;
+    margin-top:4px;
+
+}
+
+.label:first-child{
+    margin-left: 0px;
+
+}
+.labelgroup{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: start;
+    margin:8px;
+}
+
+.contact{
+    display: inline-block;
+    margin-right: 16px;
+}
+
+/* footer */
+footer{
+    text-align:center;
+    margin-top:168px;
+
+}
